@@ -14,7 +14,20 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
+//    let username : String = textFieldUserName.text!
+//    let password : String = textFieldPassword.text!
+//
+//    let param = "{ \"operation\" : \"login\", \"user\": { \"username\": \"" + username + "\", \"password\": \"" + password + "\" } }"
+//    let dict = convertToDictionary(text: param)
+//
+//    //making a post request
+//    Alamofire.request(URL_USER_LOGIN, method: .post, parameters: dict).responseJSON{
+//        response in
+//        //printing response
+//        print(response)
+//        print (param)
+//        //other handling removed
+//    }
 
 }
 
